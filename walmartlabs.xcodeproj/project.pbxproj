@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CACD36D727EF1AD1BE451721 /* Pods_walmartlabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D90D37444C8E8D7E2F7D4F0 /* Pods_walmartlabs.framework */; };
+		FA28E38C1F9D311300C84DD1 /* SAMLoadingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28E38B1F9D311300C84DD1 /* SAMLoadingFooterView.swift */; };
+		FA28E38E1F9D312500C84DD1 /* SAMLoadingFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA28E38D1F9D312500C84DD1 /* SAMLoadingFooterView.xib */; };
+		FA28E3911F9D3A3D00C84DD1 /* UIView+NibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28E3901F9D3A3D00C84DD1 /* UIView+NibExtension.swift */; };
 		FA758C1D1F9BC9C800BDB3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C1C1F9BC9C800BDB3D8 /* AppDelegate.swift */; };
-		FA758C1F1F9BC9C800BDB3D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C1E1F9BC9C800BDB3D8 /* ViewController.swift */; };
-		FA758C221F9BC9C800BDB3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA758C201F9BC9C800BDB3D8 /* Main.storyboard */; };
 		FA758C241F9BC9C800BDB3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA758C231F9BC9C800BDB3D8 /* Assets.xcassets */; };
-		FA758C271F9BC9C800BDB3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA758C251F9BC9C800BDB3D8 /* LaunchScreen.storyboard */; };
 		FA758C321F9BC9C800BDB3D8 /* walmartlabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C311F9BC9C800BDB3D8 /* walmartlabsTests.swift */; };
 		FA758C3D1F9BC9C800BDB3D8 /* walmartlabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C3C1F9BC9C800BDB3D8 /* walmartlabsUITests.swift */; };
+		FA758C4C1F9BD2C400BDB3D8 /* SAMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C4A1F9BD2C400BDB3D8 /* SAMProductViewController.swift */; };
+		FA758C4D1F9BD2C400BDB3D8 /* SAMProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA758C4B1F9BD2C400BDB3D8 /* SAMProductViewController.xib */; };
+		FA758C541F9BD50300BDB3D8 /* SAMProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C521F9BD50300BDB3D8 /* SAMProductTableViewCell.swift */; };
+		FA758C551F9BD50300BDB3D8 /* SAMProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA758C531F9BD50300BDB3D8 /* SAMProductTableViewCell.xib */; };
+		FA758C591F9BE26D00BDB3D8 /* SAMProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C581F9BE26D00BDB3D8 /* SAMProduct.swift */; };
+		FA758C5B1F9BE41200BDB3D8 /* SAMBaseRESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C5A1F9BE41200BDB3D8 /* SAMBaseRESTService.swift */; };
+		FA758C5D1F9BE4E600BDB3D8 /* SAMProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C5C1F9BE4E600BDB3D8 /* SAMProductService.swift */; };
+		FA758C5F1F9BE5EC00BDB3D8 /* SAMServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA758C5E1F9BE5EC00BDB3D8 /* SAMServiceConstants.swift */; };
+		FAC5D2731F9CF6CA00F62E11 /* SAMProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D2721F9CF6CA00F62E11 /* SAMProductResponse.swift */; };
+		FAC5D2751F9D0F3300F62E11 /* SAMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D2741F9D0F3300F62E11 /* SAMTableViewCell.swift */; };
+		FAC5D2781F9D226000F62E11 /* SAMPaginationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D2771F9D226000F62E11 /* SAMPaginationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +49,12 @@
 		3D90D37444C8E8D7E2F7D4F0 /* Pods_walmartlabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walmartlabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		475691F5282898C92FBCBDD5 /* Pods-walmartlabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walmartlabs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walmartlabs/Pods-walmartlabs.debug.xcconfig"; sourceTree = "<group>"; };
 		DA145736CB4DDDB90CB90B8E /* Pods-walmartlabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walmartlabs.release.xcconfig"; path = "Pods/Target Support Files/Pods-walmartlabs/Pods-walmartlabs.release.xcconfig"; sourceTree = "<group>"; };
+		FA28E38B1F9D311300C84DD1 /* SAMLoadingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMLoadingFooterView.swift; sourceTree = "<group>"; };
+		FA28E38D1F9D312500C84DD1 /* SAMLoadingFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SAMLoadingFooterView.xib; sourceTree = "<group>"; };
+		FA28E3901F9D3A3D00C84DD1 /* UIView+NibExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+NibExtension.swift"; sourceTree = "<group>"; };
 		FA758C191F9BC9C800BDB3D8 /* walmartlabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walmartlabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA758C1C1F9BC9C800BDB3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA758C1E1F9BC9C800BDB3D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA758C211F9BC9C800BDB3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA758C231F9BC9C800BDB3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA758C261F9BC9C800BDB3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA758C281F9BC9C800BDB3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA758C2D1F9BC9C800BDB3D8 /* walmartlabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walmartlabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA758C311F9BC9C800BDB3D8 /* walmartlabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmartlabsTests.swift; sourceTree = "<group>"; };
@@ -51,6 +62,17 @@
 		FA758C381F9BC9C800BDB3D8 /* walmartlabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walmartlabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA758C3C1F9BC9C800BDB3D8 /* walmartlabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmartlabsUITests.swift; sourceTree = "<group>"; };
 		FA758C3E1F9BC9C800BDB3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA758C4A1F9BD2C400BDB3D8 /* SAMProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMProductViewController.swift; sourceTree = "<group>"; };
+		FA758C4B1F9BD2C400BDB3D8 /* SAMProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SAMProductViewController.xib; sourceTree = "<group>"; };
+		FA758C521F9BD50300BDB3D8 /* SAMProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMProductTableViewCell.swift; sourceTree = "<group>"; };
+		FA758C531F9BD50300BDB3D8 /* SAMProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SAMProductTableViewCell.xib; sourceTree = "<group>"; };
+		FA758C581F9BE26D00BDB3D8 /* SAMProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMProduct.swift; sourceTree = "<group>"; };
+		FA758C5A1F9BE41200BDB3D8 /* SAMBaseRESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMBaseRESTService.swift; sourceTree = "<group>"; };
+		FA758C5C1F9BE4E600BDB3D8 /* SAMProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMProductService.swift; sourceTree = "<group>"; };
+		FA758C5E1F9BE5EC00BDB3D8 /* SAMServiceConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMServiceConstants.swift; sourceTree = "<group>"; };
+		FAC5D2721F9CF6CA00F62E11 /* SAMProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMProductResponse.swift; sourceTree = "<group>"; };
+		FAC5D2741F9D0F3300F62E11 /* SAMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMTableViewCell.swift; sourceTree = "<group>"; };
+		FAC5D2771F9D226000F62E11 /* SAMPaginationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMPaginationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA28E38F1F9D3A2B00C84DD1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA28E3901F9D3A3D00C84DD1 /* UIView+NibExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FA758C101F9BC9C800BDB3D8 = {
 			isa = PBXGroup;
 			children = (
@@ -121,11 +151,14 @@
 		FA758C1B1F9BC9C800BDB3D8 /* walmartlabs */ = {
 			isa = PBXGroup;
 			children = (
+				FA28E38F1F9D3A2B00C84DD1 /* Extensions */,
+				FAC5D2761F9D224D00F62E11 /* Managers */,
+				FA758C561F9BDE2600BDB3D8 /* Model */,
+				FA758C571F9BDE2600BDB3D8 /* Networking */,
+				FA758C4F1F9BD4A800BDB3D8 /* Views */,
+				FA758C4E1F9BD4A100BDB3D8 /* Controllers */,
 				FA758C1C1F9BC9C800BDB3D8 /* AppDelegate.swift */,
-				FA758C1E1F9BC9C800BDB3D8 /* ViewController.swift */,
-				FA758C201F9BC9C800BDB3D8 /* Main.storyboard */,
 				FA758C231F9BC9C800BDB3D8 /* Assets.xcassets */,
-				FA758C251F9BC9C800BDB3D8 /* LaunchScreen.storyboard */,
 				FA758C281F9BC9C800BDB3D8 /* Info.plist */,
 			);
 			path = walmartlabs;
@@ -147,6 +180,70 @@
 				FA758C3E1F9BC9C800BDB3D8 /* Info.plist */,
 			);
 			path = walmartlabsUITests;
+			sourceTree = "<group>";
+		};
+		FA758C4E1F9BD4A100BDB3D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA758C4A1F9BD2C400BDB3D8 /* SAMProductViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA758C4F1F9BD4A800BDB3D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA758C511F9BD4DB00BDB3D8 /* Xibs */,
+				FA758C501F9BD4A800BDB3D8 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA758C501F9BD4A800BDB3D8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA758C521F9BD50300BDB3D8 /* SAMProductTableViewCell.swift */,
+				FAC5D2741F9D0F3300F62E11 /* SAMTableViewCell.swift */,
+				FA28E38B1F9D311300C84DD1 /* SAMLoadingFooterView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA758C511F9BD4DB00BDB3D8 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				FA758C4B1F9BD2C400BDB3D8 /* SAMProductViewController.xib */,
+				FA758C531F9BD50300BDB3D8 /* SAMProductTableViewCell.xib */,
+				FA28E38D1F9D312500C84DD1 /* SAMLoadingFooterView.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		FA758C561F9BDE2600BDB3D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA758C581F9BE26D00BDB3D8 /* SAMProduct.swift */,
+				FAC5D2721F9CF6CA00F62E11 /* SAMProductResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA758C571F9BDE2600BDB3D8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FA758C5A1F9BE41200BDB3D8 /* SAMBaseRESTService.swift */,
+				FA758C5C1F9BE4E600BDB3D8 /* SAMProductService.swift */,
+				FA758C5E1F9BE5EC00BDB3D8 /* SAMServiceConstants.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAC5D2761F9D224D00F62E11 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5D2771F9D226000F62E11 /* SAMPaginationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +356,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA758C271F9BC9C800BDB3D8 /* LaunchScreen.storyboard in Resources */,
+				FA758C551F9BD50300BDB3D8 /* SAMProductTableViewCell.xib in Resources */,
+				FA758C4D1F9BD2C400BDB3D8 /* SAMProductViewController.xib in Resources */,
+				FA28E38E1F9D312500C84DD1 /* SAMLoadingFooterView.xib in Resources */,
 				FA758C241F9BC9C800BDB3D8 /* Assets.xcassets in Resources */,
-				FA758C221F9BC9C800BDB3D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +440,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA758C1F1F9BC9C800BDB3D8 /* ViewController.swift in Sources */,
+				FA758C541F9BD50300BDB3D8 /* SAMProductTableViewCell.swift in Sources */,
+				FA758C5B1F9BE41200BDB3D8 /* SAMBaseRESTService.swift in Sources */,
+				FA28E38C1F9D311300C84DD1 /* SAMLoadingFooterView.swift in Sources */,
+				FA758C591F9BE26D00BDB3D8 /* SAMProduct.swift in Sources */,
+				FA758C4C1F9BD2C400BDB3D8 /* SAMProductViewController.swift in Sources */,
+				FAC5D2751F9D0F3300F62E11 /* SAMTableViewCell.swift in Sources */,
+				FA28E3911F9D3A3D00C84DD1 /* UIView+NibExtension.swift in Sources */,
+				FAC5D2781F9D226000F62E11 /* SAMPaginationManager.swift in Sources */,
+				FAC5D2731F9CF6CA00F62E11 /* SAMProductResponse.swift in Sources */,
 				FA758C1D1F9BC9C800BDB3D8 /* AppDelegate.swift in Sources */,
+				FA758C5D1F9BE4E600BDB3D8 /* SAMProductService.swift in Sources */,
+				FA758C5F1F9BE5EC00BDB3D8 /* SAMServiceConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,25 +485,6 @@
 			targetProxy = FA758C391F9BC9C800BDB3D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FA758C201F9BC9C800BDB3D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA758C211F9BC9C800BDB3D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FA758C251F9BC9C800BDB3D8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA758C261F9BC9C800BDB3D8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FA758C3F1F9BC9C800BDB3D8 /* Debug */ = {
@@ -515,7 +604,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sams.walmartlabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -530,7 +619,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sams.walmartlabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
