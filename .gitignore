@@ -44,7 +44,6 @@ playground.xcworkspace
 # Package.pins
 .build/
 
-Pods/
 
 
 # End of https://www.gitignore.io/api/swift
