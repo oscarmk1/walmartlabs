@@ -14,7 +14,7 @@ public class SAMProduct {
     public var longDescription: String?
     public var price: String?
     public var productImageURL: String?
-    public var reviewRating: Int?
+    public var reviewRating: Double?
     public var reviewCount: Int?
     public var isInStock: Bool?
     
@@ -25,7 +25,7 @@ public class SAMProduct {
         longDescription = dict[SAMProductJSONKeys.longDescription] as? String
         price = dict[SAMProductJSONKeys.price] as? String
         productImageURL = dict[SAMProductJSONKeys.productImage] as? String
-        reviewRating = dict[SAMProductJSONKeys.reviewRating] as? Int
+        reviewRating = dict[SAMProductJSONKeys.reviewRating] as? Double
         reviewCount = dict[SAMProductJSONKeys.reviewCount] as? Int
         isInStock = dict[SAMProductJSONKeys.inStock] as? Bool
     }

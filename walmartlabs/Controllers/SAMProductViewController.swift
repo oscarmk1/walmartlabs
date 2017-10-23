@@ -46,6 +46,10 @@ class SAMProductViewController: UIViewController {
     }
 
     private func configureUI() {
+        let navImageView = UIImageView(image: UIImage(named: "samsclublogo"))
+        navImageView.contentMode = .scaleAspectFit
+        self.navigationItem.titleView = navImageView
+        
         self.tableView.estimatedRowHeight = 115
         self.tableView.rowHeight = UITableViewAutomaticDimension
         
@@ -78,7 +82,10 @@ class SAMProductViewController: UIViewController {
 
 extension SAMProductViewController: UITableViewDelegate {
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        NSLog("selected row")
+        let detailVC = SAMProductDetailViewController()
+        detailVC.product = self.products?[indexPath.row]
+        
+        self.navigationController?.pushViewController(detailVC, animated: true)
     }
     
     public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
